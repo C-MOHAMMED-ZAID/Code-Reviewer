@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1f1f1f;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.home {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.hero {
+  text-align: center;
+  padding: 8rem 2rem;
+  background: linear-gradient(135deg, #1f1f1f, #121212);
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  background-color: #6200ea;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #3700b3;
+}
+
+.features, .advantages {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #2c2c2c, #1f1f1f);
+}
+
+.features h2, .advantages h2 {
+  text-align: left;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.feature, .advantage {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background-color: #1f1f1f;
+}
+
+.feature1 {
+  background-color: #2c2c2c;
+}
+
+.feature2 {
+  background-color: #3a3a3a;
+}
+
+.feature3 {
+  background-color: #4a4a4a;
+}
+
+.advantage1 {
+  background-color: #2c2c2c;
+}
+
+.advantage2 {
+  background-color: #3a3a3a;
+}
+
+.advantage3 {
+  background-color: #4a4a4a;
+}
+
+.feature h3, .advantage h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.feature p, .advantage p {
+  font-size: 1.25rem;
+}
+
+.footer {
+  padding: 2rem;
+  background-color: #1f1f1f;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.social-links {
+  margin-top: 1rem;
+}
+
+.social-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 1rem;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #6200ea;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
